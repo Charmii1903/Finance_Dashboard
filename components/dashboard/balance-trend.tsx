@@ -50,7 +50,7 @@ export function BalanceTrend() {
                 <YAxis
                   className="text-xs text-muted-foreground dark:text-white"
                   stroke="currentColor"
-                  tickFormatter={(value) => `$${value}`}
+                  tickFormatter={(value) => `Rs.${value}`}
                 />
                 <Tooltip
                   contentStyle={{
