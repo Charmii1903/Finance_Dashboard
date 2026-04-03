@@ -100,9 +100,10 @@ export function Insights() {
                 </p>
                 <p className="text-sm text-purple-950 dark:text-white mt-1">
                   ${insights.highestSpendingCategory.amount.toLocaleString(
-                    'en-US',
+                    'en-IN',
                     {
-                      minimumFractionDigits: 2,
+                       style: 'currency',
+                      currency: 'INR',
                       maximumFractionDigits: 2,
                     }
                   )}
