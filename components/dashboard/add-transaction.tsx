@@ -77,7 +77,7 @@ export function AddTransaction() {
     <Card className="border-0 shadow-sm col-span-full">
       <CardHeader>
         <CardTitle className="text-lg text-purple-950 dark:text-white">Add Transaction</CardTitle>
-        <CardDescription className='text-purple-800 dark:text-white'>Create a new transaction (Admin only)</CardDescription>
+        <CardDescription className='text-purple-800 dark:text-white'>Create a new transaction </CardDescription>
       </CardHeader>
       <CardContent>
         {!isOpen ? (
