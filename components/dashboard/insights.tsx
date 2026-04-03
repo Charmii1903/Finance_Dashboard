@@ -99,7 +99,7 @@ export function Insights() {
                   {insights.highestSpendingCategory.category}
                 </p>
                 <p className="text-sm text-purple-950 dark:text-white mt-1">
-                  ${insights.highestSpendingCategory.amount.toLocaleString(
+                  {insights.highestSpendingCategory.amount.toLocaleString(
                     'en-IN',
                     {
                        style: 'currency',
