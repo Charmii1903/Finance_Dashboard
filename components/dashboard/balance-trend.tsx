@@ -60,7 +60,9 @@ export function BalanceTrend() {
                   }}
                   labelStyle={{ color: 'var(--foreground)' }}
                   formatter={(value) => [
-                    `$${Number(value).toLocaleString('en-US', {
+                    `${Number(value).toLocaleString('en-IN', {
+                      style: 'currency',
+                      currency: 'INR',
                       minimumFractionDigits: 2,
                     })}`,
                   ]}
